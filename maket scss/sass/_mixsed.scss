@@ -1,0 +1,22 @@
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@mixin flex-alain-item {
+    display: flex;
+    align-items: center;
+}
+
+@mixin flex-ul {
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+}
+
+@mixin column-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+}

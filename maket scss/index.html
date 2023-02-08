@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>maket-scss</title>
+    <link rel="stylesheet" href="./sass/main.css">
+</head>
+
+<body>
+    <header>
+        <nav class="nav-menu">
+            <div class="container">
+                <div class="nav-bar">
+                    <input class="inputCheckbox" id="menu" type="checkbox">
+                    <div class="nav-bar__img">
+                        <img src="./images/icons/logo.svg" alt="logo">
+                    </div>
+                    <div class="nav-bar__menu">
+                        <ul class="bar__menu__ul">
+                            <div class="bar__menu__ul__left">
+                                <li class="nav-bar__menu__ul__left__li">
+                                    <a href="#biznes-satrudnik" class="nav-bar__menu__ul__li">Pricing</a>
+                                </li>
+                                <li class="nav-bar__menu__ul__left__li">
+                                    <a href="#" class="nav-bar__menu__ul__li">About</a>
+                                </li>
+                                <li class="nav-bar__menu__ul__left__li">
+                                    <a href="#" class="nav-bar__menu__ul__li">Contact</a>
+                                </li>
+                                <li class="bar__menu__ul">
+                                    <label class="bar__menu__ul_remuve" for="menu">
+                                        <img src="./images/icons/remuve-btn.png" alt="#">
+                                    </label>
+                                </li>
+                            </div>
+                            <button class="bar__menu__ul__left__btn">Schedule a Demo</button>
+                        </ul>
+                        <!-- <label for="menu" class="nav-bar__menu-btn"><img src="./images/icons/humburger.svg" alt="#"></label> -->
+                        <!-- <button class="bar__menu__ul__left__btn">Schedule a Demo</button> -->
+                    </div>
+                    <label for="menu" class="nav-bar__menu-btn"><img src="./images/icons/humburger.svg" alt="#"></label>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="hero">
+                <div class="hiro-text">
+                    <div class="hero-tixt__title">
+                        <h1 class="hiro-text__title-h1">Start building with our APIs for absolutely free.</h1>
+                        <form action="https://echo.htmlacademy.ru/ " method="POST ">
+                            <label class="hiro-text__label">
+                                <input class="hiro-text__label__input" type="text">
+                                <button class="hiro-text__label__btn">Schedule a Demo</button>
+                            </label>
+                        </form>
+                    </div>
+
+                </div>
+                <div class="hero-img">
+                    <img src="./images/phone.png" alt="#">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="biznes-satrudnik" class="biznes-satrudnik">
+            <div class="container">
+                <div class="work-with">
+                    <div class="work-with-left">
+                        <h2 class="work-with-left__title">Who we work with</h2>
+                        <p class="work-with-left__text">Today, millions of people around the world have successfully connected their accounts to apps they love using our API. We provide developers with the tools they need to create easy and accessible experiences for their users. </p>
+                        <button class="work-with-left__btn">About Us</button>
+                    </div>
+                    <div class="work-with-right">
+                        <div class="work-with-right__card"><img src="./images/icons-2/TESLA.svg" alt="#"></div>
+                        <div class="work-with-right__card"><img src="./images/icons-2/MICROSOFT.svg" alt="#"></div>
+                        <div class="work-with-right__card"><img src="./images/icons-2/HP.svg" alt="#"></div>
+                        <div class="work-with-right__card"><img src="./images/icons-2/ORACLE.svg" alt="#"></div>
+                        <div class="work-with-right__card"><img src="./images/icons-2/GOOGLE.svg" alt="#"></div>
+                        <div class="work-with-right__card"><img src="./images/icons-2/NVIDIA.svg" alt="#"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="products" class="products">
+            <div class="container"></div>
+        </section>
+    </main>
+</body>
+
+</html>

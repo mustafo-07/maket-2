@@ -1,0 +1,135 @@
+header {
+    // background-color: $secondary-text-color;
+    width: 100vw;
+    background-image: url(./../../images/icons/Bitmap.jpg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: 780px;
+}
+
+.nav-bar__menu {
+    padding-left: 64px;
+}
+
+.nav-menu {
+    padding-top: 45px;
+}
+
+.nav-bar {
+    @include flex-alain-item;
+}
+
+.bar__menu__ul {
+    @include flex-center;
+    &__left {
+        @include flex-ul;
+    }
+}
+
+// .nav-bar__img {
+//     width: 30%;
+// }
+// .nav-bar__menu {
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-between;
+// }
+.nav-bar__menu {
+    width: 80%;
+}
+
+.bar__menu__ul_remuve {
+    display: none;
+}
+
+.bar__menu__ul__left__btn {
+    width: 173px;
+    height: 47px;
+    // padding: 16px 26px;
+    background: #BA4270;
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+    border-radius: 24px;
+    border: none;
+    color: $secondary-text-color;
+}
+
+.nav-bar__menu__ul__li {
+    font-family: 'Public Sans';
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: $main-text-color;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.nav-bar__menu-btn {
+    background-color: none;
+    border: none;
+    display: none;
+}
+
+.bar__menu__ul {
+    position: relative;
+}
+
+.hero {
+    @include flex-alain-item;
+}
+
+.hero-img img {
+    max-width: 263px;
+    max-height: 500px;
+    margin-left: 120px;
+    border-radius: 35px;
+    margin-top: 50px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+.hero-img {
+    background-image: url(/images/iPhone-X-Mockup.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.hero-tixt__title {
+    min-height: 500px;
+}
+
+.hiro-text__label__btn {
+    width: 173px;
+    height: 47px;
+    // padding: 16px 26px;
+    background: #BA4270;
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+    border-radius: 24px;
+    border: none;
+    color: $secondary-text-color;
+}
+
+.hiro-text__label__input {
+    padding-left: 30px;
+    width: 445px;
+    height: 45px;
+    outline: none;
+    border: none;
+    background: $secondary-text-color;
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+    border-radius: 24px;
+}
+
+.hiro-text__title-h1 {
+    padding-top: 166px;
+    max-width: 546px;
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 72px;
+    color: #36536B;
+}
